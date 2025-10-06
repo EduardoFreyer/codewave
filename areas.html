@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas de Atuação - CodeWave</title>
+    <meta name="description" content="Descubra as diversas oportunidades de carreira que o curso de Sistemas de Informação oferece">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">CodeWave</a>
+                
+                <div class="nav-links desktop-nav">
+                    <a href="index.html" class="nav-link">Início</a>
+                    <a href="areas.html" class="nav-link active">Áreas de Atuação</a>
+                    <a href="grade.html" class="nav-link">Grade Curricular</a>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="areas.html" class="nav-link active">Áreas de Atuação</a>
+                <a href="grade.html" class="nav-link">Grade Curricular</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Áreas de <span class="text-primary">Atuação</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Descubra as diversas oportunidades de carreira que o curso de Sistemas de Informação oferece
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas Carousel Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore as Áreas</h2>
+                <p class="section-description">
+                    Cada área oferece oportunidades únicas de crescimento profissional e desenvolvimento de habilidades especializadas
+                </p>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel-card" id="carouselCard">
+                    <!-- Content populated by JavaScript -->
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn" aria-label="Anterior">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <button class="carousel-btn" id="nextBtn" aria-label="Próximo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="carousel-tabs" id="carouselTabs"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Overview -->
+    <section class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Panorama do Mercado</h2>
+                <p class="section-description">
+                    O mercado de tecnologia está em constante crescimento, oferecendo excelentes oportunidades
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3 class="card-stat">500k+</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-text">Vagas abertas em TI no Brasil</p>
+                    </div>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3 class="card-stat">25%</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-text">Crescimento anual do setor</p>
+                    </div>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3 class="card-stat">R$ 12k</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-text">Salário médio nacional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="section-title">Pronto para se especializar?</h2>
+                <p class="section-description">
+                    Conheça a grade curricular completa e veja como o curso prepara você para essas áreas
+                </p>
+                <a href="grade.html" class="btn btn-primary btn-lg">
+                    Ver Grade Curricular
+                    <svg class="icon-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">CodeWave</h3>
+                <p class="footer-subtitle">Sua jornada em Sistemas de Informação começa aqui</p>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">Início</a>
+                    <a href="areas.html" class="footer-link">Áreas</a>
+                    <a href="grade.html" class="footer-link">Grade</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="areas.js"></script>
+</body>
+</html>
