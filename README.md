@@ -7,17 +7,18 @@ Este repositório contém um site informativo sobre o curso de Sistemas de Infor
 ## 📁 Estrutura do Projeto
 
 ```
-codewave/
-├── index.html          # Página inicial
-├── areas.html          # Áreas de atuação
-├── grade.html          # Grade curricular
-├── blog.html           # Blog
-├── styles.css          # Estilos CSS
-├── script.js           # JavaScript comum
-├── areas.js            # JavaScript da página de áreas
-├── grade.js            # JavaScript da grade curricular
-├── blog.js             # JavaScript do blog
-└── public/             # Imagens e recursos estáticos
+📁 codewave/
+├── 📜 index.html          # Página inicial
+├── 📜 areas.html          # Áreas de atuação
+├── 📜 grade.html          # Grade curricular
+├── 📜 blog.html           # Blog
+├── 📜 styles.css          # Estilos CSS
+|  📁 javascript/
+|  ├── 📜 script.js           # JavaScript comum
+|  ├── 📜 areas.js            # JavaScript da página de áreas
+|  ├── 📜 grade.js            # JavaScript da grade curricular
+|  └── 📜 blog.js             # JavaScript do blog
+└── 📁 public/             # Imagens e recursos estáticos
 ```
 
 ## 🎨 Funcionalidades
