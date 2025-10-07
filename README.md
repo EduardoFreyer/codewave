@@ -4,37 +4,6 @@ Este repositório contém um site informativo sobre o curso de Sistemas de Infor
 
 ## 🚀 Versão HTML/CSS/JavaScript
 
-O site agora está disponível em **HTML, CSS e JavaScript puro**, sem dependências de frameworks como Next.js ou React.
-
-### Como visualizar o site
-
-#### Opção 1: Abrir diretamente no navegador
-Simplesmente abra o arquivo `index.html` em seu navegador web preferido.
-
-#### Opção 2: Usar um servidor local
-Para uma experiência completa com carregamento correto de recursos, use um servidor HTTP local:
-
-**Usando Python:**
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-
-**Usando Node.js (http-server):**
-```bash
-npx http-server -p 8000
-```
-
-**Usando PHP:**
-```bash
-php -S localhost:8000
-```
-
-Depois acesse `http://localhost:8000` no seu navegador.
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -74,19 +43,6 @@ codewave/
 - CSS3 (Custom Properties, Flexbox, Grid)
 - JavaScript ES6+ (Vanilla)
 - SVG para ícones
-
-## 📝 Versão Next.js (Legacy)
-
-O código original em Next.js/React ainda está presente no repositório nas pastas:
-- `app/` - Páginas Next.js
-- `components/` - Componentes React
-- `package.json` - Dependências do projeto Next.js
-
-Para executar a versão Next.js:
-```bash
-npm install
-npm run dev
-```
 
 ## 🤝 Contribuindo
 
