@@ -1060,6 +1060,7 @@ img {
     border-radius: var(--radius);
     overflow: hidden;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .blog-card:hover {
@@ -1104,7 +1105,7 @@ img {
     color: #065f46;
 }
 
-.badge-categoria-Mercado {
+.badge-categoria-Curso {
     background-color: #ede9fe;
     color: #5b21b6;
 }
