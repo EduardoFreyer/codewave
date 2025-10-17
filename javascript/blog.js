@@ -61,7 +61,7 @@ function renderBlogPosts() {
     blogGrid.innerHTML = filteredPosts.map(post => `
         <div class="blog-card" onclick="window.location.href='${post.link}'">
             <div class="blog-image-container">
-                <img src="${post.image}" alt="${post.title}" class="blog-image" onerror="this.src='/public/placeholder.jpg'">
+                <img src="${post.image}" alt="${post.title}" class="blog-image"">
                 <span class="blog-category-badge badge-categoria-${post.category}">
                     ${post.category}
                 </span>
