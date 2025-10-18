@@ -9,7 +9,7 @@ const blogPosts = [
         date: '16-10-2025',
         readTime: '17 min',
         category: 'Curso',
-        image: '/public/Apresentação.png',
+        image: './public/Apresentação.png',
         link: 'https://youtu.be/O79d4lZQ_5A',
         featured: true
     },
@@ -21,7 +21,7 @@ const blogPosts = [
         date: '16-10-2025',
         readTime: '15 min',
         category: 'Curso',
-        image: '/public/Aula_00.png',
+        image: './public/Aula_00.png',
         link: 'https://youtu.be/L-MtEpKswYs',
         featured: true
     },
@@ -33,7 +33,7 @@ const blogPosts = [
         date: '16-10-2025',
         readTime: '17 min',
         category: 'Curso',
-        image: '/public/Aula_01.png',
+        image: './public/Aula_01.png',
         link: 'https://youtu.be/GAdXU2h2Dqo',
         featured: true
     }
